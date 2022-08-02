@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Edu+NSW+ACT+Foundation&family=Ibarra+Real+Nova&family=Quicksand&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap");
+
+* {
+  border: 1px solid white;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #141920;
+}
+
+header {
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+    background-color: rgb(20, 25, 32);
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 25px;
+    font-family: "Cinzel", serif;
+    font-weight: 500;
+    color: white;
+  }
+
+  a:hover {
+    font-size: 21px;
+    text-decoration: underline;
+  }
+}
+
+// section  información Lucas
+.section-header {
+  background-color: #161d26;
+  height: 70vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px 1px solid white;
+  p {
+    color: white;
+    font-family: "Cinzel", serif;
+    font-size: 25px;
+  }
+  h2 {
+    color: white;
+    font-family: "Source Code Pro", monospace;
+    font-size: 4em;
+    font-weight: 900;
+  }
+}
+
+.info-section {
+  width: 30%;
+  margin-top: 50px;
+  height: 20vh;
+}
+
+.nombre-lucas {
+  width: 30%;
+  p {
+    margin-top: -30px;
+  }
+}
+
+.img-section {
+  img {
+    border-radius: 50%;
+    margin-top: 50px;
+  }
+}
+
+.datos-lucas {
+  display: flex;
+  gap: 50px;
+  margin-top: 40px;
+
+  p {
+    font-size: 15px;
+    margin-top: -15px;
+  }
+}
+
+h3 {
+  font-size: 5em;
+  color: white;
+  font-family: "Cinzel", serif;
+  text-align: center;
+  background-color: #141920;
+}
+
+// section about me
+.section-aboutme {
+  background-color: rgb(20, 25, 32);
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+  
+
+.info-fechas {
+  i {
+    color: white;
+    font-size: 30px;
+  }
+}
+
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-trabajos {
+  p {
+    color: white;
+   width: 35%;
+    margin-left: 20px;
+  }
+}
+
+.border-aboutme {
+  border-left: 1px solid white;
+  height: 20vh;
+}
