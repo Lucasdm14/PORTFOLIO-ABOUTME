@@ -2,9 +2,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap");
 
-* {
-  border: 1px solid white;
-}
 
 
 body {
@@ -109,6 +106,8 @@ h3 {
   display: flex;
   justify-content: center;
   margin: auto;
+  width: 100%;
+
 }
   
 
@@ -116,21 +115,19 @@ h3 {
   i {
     color: white;
     font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 30px;
   }
-}
-
-.about-me {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .info-trabajos {
+  width:30%;
   p {
     color: white;
-   width: 35%;
-    margin-left: 20px;
-  }
+  margin-left: 20px;
+}
 }
 
 .border-aboutme {

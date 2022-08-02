@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Edu+NSW+ACT+Foundation&family=Ibarra+Real+Nova&family=Quicksand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap");
-* {
-  border: 1px solid white;
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -97,22 +93,23 @@ h3 {
   display: flex;
   justify-content: center;
   margin: auto;
+  width: 100%;
 }
 
 .info-fechas i {
   color: white;
   font-size: 30px;
-}
-
-.about-me {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 30px;
 }
 
+.info-trabajos {
+  width: 30%;
+}
 .info-trabajos p {
   color: white;
-  width: 35%;
   margin-left: 20px;
 }
 
